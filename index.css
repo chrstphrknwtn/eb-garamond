@@ -1,0 +1,60 @@
+@import "eb-garamond.css";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: 'EB Garamond', sans-serif;
+  line-height: 1.2;
+  color: #222;
+}
+
+/* General Typography */
+
+h1, h2, h3, h4, h5, h6, ul, ol, dd, p {
+  margin-top: 0;
+}
+
+/* Elements */
+
+.fontname {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* Weights */
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+/* Styles */
+
+.italic {
+  font-style: italic;
+}
+
+/* Opentype features */
