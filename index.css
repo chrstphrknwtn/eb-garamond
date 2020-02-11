@@ -16,6 +16,13 @@ body {
   color: #222;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background:  #010101;
+  }
+}
+
 /* General Typography */
 
 h1, h2, h3, h4, h5, h6, ul, ol, dd, p {
