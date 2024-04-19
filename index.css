@@ -1,6 +1,8 @@
-@import "eb-garamond.css";
+@import 'eb-garamond.css';
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -19,13 +21,22 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
     color: #eee;
-    background:  #010101;
+    background: #010101;
   }
 }
 
 /* General Typography */
 
-h1, h2, h3, h4, h5, h6, ul, ol, dd, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dd,
+p {
   margin-top: 0;
 }
 
